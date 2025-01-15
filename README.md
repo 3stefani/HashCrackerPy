@@ -23,26 +23,26 @@ This project is a Python program that attempts to decode a SHA-256 hash key usin
 
 ## Execution
 
-  python decoder.py
+  	python decoder.py
 
 ### Example
 
 Dictionary file (dictionary.txt):
 
-  test
-  password
-  123456
-  test123
-  admin
+ 	 test
+ 	 password
+  	123456
+ 	 test123
+  	admin
 
 Target hash:
 
-  ff960cb55673958c594d0daaab1e368651c75c02f9687192a1811e7b180336a7
+	  ff960cb55673958c594d0daaab1e368651c75c02f9687192a1811e7b180336a7
 
 Output:
 
-  Enter the dictionary file path: dictionary.txt
-  The original password is: test123
+ 	 Enter the dictionary file path: dictionary.txt
+ 	 The original password is: test123
 
 ## Requirements
 
@@ -68,6 +68,6 @@ Requires a pre-prepared dictionary file.
 
 Does not support brute force attacks without a dictionary.
 
-#Disclaimer
+# Disclaimer
 
 This program is provided for educational purposes only. Misusing password cracking tools can be illegal. Use this software only on systems where you have explicit permission.
